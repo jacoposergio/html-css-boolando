@@ -8,3 +8,57 @@
 BODY{
     background-color: aquamarine;
 }
+
+/* COMMON  */
+
+ul {
+    list-style-type: none;
+}
+
+header{
+    background-color: beige;
+}
+
+
+
+.header-container{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #265fea;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    nav{
+        width: 10%;
+        display: flex;
+        height: 100%;
+    }
+
+    .logo-header{
+    width: 10%;
+    }
+    .logo-header img{
+        width: 100%;
+    }
+    .profilo-container{
+        width: 10%;
+    }
+
+     .nav-list{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+     }
+
+     .profilo-list{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-around;
+     }
