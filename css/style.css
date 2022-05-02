@@ -118,6 +118,7 @@ header{
 
   .col-content{
       display: flex;
+      position: relative;
   }
 
  .col {
@@ -170,6 +171,15 @@ position: relative;
   .old-price{
     text-decoration: line-through;
 }
+
+.product-hide{
+    position: absolute;
+    width: 100%;
+}
+
+.product-hide:hover {
+    display: none;
+  }
 
 
 /* \\\\\\\\\\\\\\\\FOOTER\\\\\\\\\\\\\\\\\\\\\ */
