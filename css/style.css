@@ -12,6 +12,23 @@ BODY{
 
 /* COMMON  */
 
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 100%;;
+}
+        h2{
+           font-weight: 500;
+           margin-top: -5px;
+        }
+
+        h3{
+            font-weight: 700;
+        }
+
 ul {
     list-style-type: none;
 }
@@ -25,6 +42,7 @@ a {
 
 header{
     background-color: beige;
+    /* z-index: 2; */
 }
 
 
@@ -86,28 +104,35 @@ header{
 
  main{
      padding: 80px 0;
- }
+    }
+    
+    .product-list{
+         display: flex;
+         flex-wrap: wrap;
+         width: 80%;
+         margin: 0 auto;
+         background-color: red;
+  }
+
  .col {
     width: calc( 100% / 3 );
     padding: 10px 20px;
-}
-.product-list{
-     display: flex;
-     flex-wrap: wrap;
-     width: 80%;
-     margin: 0 auto;
+    display: flex;
+    border: 1px solid rgb(48, 22, 22);
     
 }
 
-.product img{
+
+/* .product img{
     width: 100%;
-}
+} */
 
 .product{
 position: relative;
 }
  
 .discount-info {
+    font-weight: 400;
     color: white;
     position: absolute;
     top: 70%;
@@ -115,13 +140,11 @@ position: relative;
 }
 
         .discount{
-
             background-color: red;
             padding: 3px 10px ;
         }
 
         .features{
-
             background-color: green;
             padding: 3px 10px ;
         }
@@ -136,4 +159,31 @@ position: relative;
     padding: 5px 10px ;
   }      
 
+  .price{
+      color: red;
+      margin-right: 5px;
+  }
    
+  .old-price{
+    text-decoration: line-through;
+}
+
+
+/* \\\\\\\\\\\\\\\\FOOTER\\\\\\\\\\\\\\\\\\\\\ */
+
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ff6900;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.societa{
+    display: flex;
+}
